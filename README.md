@@ -41,6 +41,8 @@ First, open your terminal. Then, run these two command lines :
     >sys	3m32,825s
     
     time nohup bash 03_cleaned_data_quality_check_by_FastQC.sh &> 03_cleaned_data_quality_check_by_FastQC.out
-    >
+    >real    6m17,025s
+    >user    10m0,410s
+    >sys     0m28,958s
   
 </details> 
