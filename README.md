@@ -45,4 +45,8 @@ First, open your terminal. Then, run these two command lines :
     >user    10m0,410s
     >sys     0m28,958s
   
+    time nohup bash 04_qiime2_import_PE.sh &> 04_qiime2_import_PE.out
+    >
+
+  
 </details> 
