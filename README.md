@@ -31,6 +31,8 @@ First, open your terminal. Then, run these two command lines :
     >sys	0m29,619s
 
     time nohup bash 01_renamed_sequences.sh &> 01_renamed_sequences.out
-    >
+    >real	0m1,222s
+    >user	0m0,042s
+    >sys	0m1,134s
   
 </details> 
