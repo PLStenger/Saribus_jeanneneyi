@@ -30,4 +30,7 @@ First, open your terminal. Then, run these two command lines :
     >user	9m24,144s
     >sys	0m29,619s
 
+    time nohup bash 01_renamed_sequences.sh &> 01_renamed_sequences.out
+    >
+  
 </details> 
