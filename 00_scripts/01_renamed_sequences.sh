@@ -33,9 +33,9 @@ cat IAC-11-17_S161_L001_R2_001.fastq.gz > $OUTPUT_16S/leaf_nursery_02_R2.fastq.g
 cat SAR-1-1-01_S146_L001_R1_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_01_R1.fastq.gz
 cat SAR-1-1-01_S146_L001_R2_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_01_R2.fastq.gz
 cat SAR-1-1-02_S147_L001_R1_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_02_R1.fastq.gz
-cat SAR-1-1-02_S147_L001_R2_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_02.fastq.gz
-cat SAR-1-1-03_S148_L001_R1_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_03.fastq.gz
-cat SAR-1-1-03_S148_L001_R2_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_03.fastq.gz
+cat SAR-1-1-02_S147_L001_R2_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_02_R2.fastq.gz
+cat SAR-1-1-03_S148_L001_R1_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_03_R1.fastq.gz
+cat SAR-1-1-03_S148_L001_R2_001.fastq.gz > $OUTPUT_16S/bark_foret_nord_03_R2.fastq.gz
 cat SAR-5-1_S162_L001_R1_001.fastq.gz > $OUTPUT_16S/leaf_PPRB_01_R1.fastq.gz
 cat SAR-5-1_S162_L001_R2_001.fastq.gz > $OUTPUT_16S/leaf_PPRB_01_R2.fastq.gz
 cat SAR-5-3_S163_L001_R1_001.fastq.gz > $OUTPUT_16S/leaf_PPRB_02_R1.fastq.gz
@@ -56,9 +56,9 @@ cat IAC-11-17_S161_L001_R2_001.fastq.gz > $OUTPUT_ITS/leaf_nursery_02_R2.fastq.g
 cat SAR-1-1-01_S146_L001_R1_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_01_R1.fastq.gz
 cat SAR-1-1-01_S146_L001_R2_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_01_R2.fastq.gz
 cat SAR-1-1-02_S147_L001_R1_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_02_R1.fastq.gz
-cat SAR-1-1-02_S147_L001_R2_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_02.fastq.gz
-cat SAR-1-1-03_S148_L001_R1_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_03.fastq.gz
-cat SAR-1-1-03_S148_L001_R2_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_03.fastq.gz
+cat SAR-1-1-02_S147_L001_R2_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_02_R2.fastq.gz
+cat SAR-1-1-03_S148_L001_R1_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_03_R1.fastq.gz
+cat SAR-1-1-03_S148_L001_R2_001.fastq.gz > $OUTPUT_ITS/bark_foret_nord_03_R2.fastq.gz
 cat SAR-5-1_S162_L001_R1_001.fastq.gz > $OUTPUT_ITS/leaf_PPRB_01_R1.fastq.gz
 cat SAR-5-1_S162_L001_R2_001.fastq.gz > $OUTPUT_ITS/leaf_PPRB_01_R2.fastq.gz
 cat SAR-5-3_S163_L001_R1_001.fastq.gz > $OUTPUT_ITS/leaf_PPRB_02_R1.fastq.gz
