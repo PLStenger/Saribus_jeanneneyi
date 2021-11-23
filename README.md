@@ -46,7 +46,32 @@ First, open your terminal. Then, run these two command lines :
     >sys     0m28,958s
   
     time nohup bash 04_qiime2_import_PE.sh &> 04_qiime2_import_PE.out
+    >real	1m25,070s
+    >user	1m36,740s
+    >sys	0m28,981s
+  
+    time nohup bash 05_qiime2_denoise_PE.sh &> 05_qiime2_denoise_PE.out
+    >real    1m22,151s
+    >user    1m46,194s
+    >sys     0m35,755s
+  
+    time nohup bash 06_qiime2_tree_PE.sh &> 06_qiime2_tree_PE.out
+    >real    0m19,103s
+    >user    0m28,532s
+    >sys     0m14,523s
+    
+    time nohup bash 07_qiime2_rarefaction_PE.sh &> 07_qiime2_rarefaction_PE.out
     >
+  
+    time nohup bash 08_qiime2_calculate_and_explore_diversity_metrics_PE.sh &> 08_qiime2_calculate_and_explore_diversity_metrics_PE.out
+    >
+   
+    time nohup bash 09_core_biom_PE.sh &> 09_core_biom_PE.out
+    >
+  
+    time nohup bash 10_qiime2_assign_taxonomy_PE.sh &> 10_qiime2_assign_taxonomy_PE.out
+    >
+    
 
   
 </details> 
