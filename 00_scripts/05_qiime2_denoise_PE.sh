@@ -49,7 +49,8 @@ METADATA_BACTERIA=/scratch_vol1/fungi/Saribus_jeanneneyi/98_database_files/16S/s
  --p-trim-left-r 0 \
  --p-trunc-len-f 0 \
  --p-trunc-len-r 0 \
- --p-n-threads 4   
+ --p-n-threads 4 \
+ --verbose
  
  ##################################################################
  # Negative control
