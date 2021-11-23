@@ -1,0 +1,11 @@
+#SampleID	Dataset	FullName	Acronyme	Site	Parts
+bark_foret_nord_01	1	bark_foret_nord_01	bark_foret_nord_01	Foret_Nord	bark
+bark_foret_nord_02	2	bark_foret_nord_02	bark_foret_nord_02	Foret_Nord	bark
+bark_foret_nord_03	3	bark_foret_nord_03	bark_foret_nord_03	Foret_Nord	bark
+base_palm_creek_pernod	4	base_palm_creek_pernod	base_palm_creek_pernod	Creek_Pernod	base_palm
+leaf_creek_pernod	5	leaf_creek_pernod	leaf_creek_pernod	Creek_Pernod	leaf
+leaf_nursery_01	6	leaf_nursery_01	leaf_nursery_01	Nursery	leaf
+leaf_nursery_02	7	leaf_nursery_02	leaf_nursery_02	Nursery	leaf
+leaf_PPRB_01	8	leaf_PPRB_01	leaf_PPRB_01	PPRB	leaf
+leaf_PPRB_02	9	leaf_PPRB_02	leaf_PPRB_02	PPRB	leaf
+root_creek_pernod	10	root_creek_pernod	root_creek_pernod	Creek_Pernod	root
