@@ -52,6 +52,7 @@ mkdir -p export/pcoa
 qiime diversity core-metrics-phylogenetic \
        --i-phylogeny tree/rooted-tree.qza \
        --i-table core/ConTable.qza \
+       --p-sampling-depth 40000 \
        --m-metadata-file $METADATA_ITS/sample-metadata.tsv \
        --o-rarefied-table core/RarTable.qza \
        --o-observed-features-vector core/Vector-observed_asv.qza \
@@ -368,12 +369,12 @@ mkdir -p export/pcoa
     # Aim: Applies a collection of diversity metrics to a feature table
     # Use: qiime diversity core-metrics-phylogenetic [OPTIONS]
 
-    #        --p-sampling-depth 1108 \
 
 
 qiime diversity core-metrics-phylogenetic \
        --i-phylogeny tree/rooted-tree.qza \
        --i-table core/ConTable.qza \
+       --p-sampling-depth 20000 \
        --m-metadata-file $METADATA_16S/sample-metadata.tsv \
        --o-rarefied-table core/RarTable.qza \
        --o-observed-features-vector core/Vector-observed_asv.qza \
