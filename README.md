@@ -51,14 +51,14 @@ First, open your terminal. Then, run these two command lines :
     >sys	0m28,981s
   
     time nohup bash 05_qiime2_denoise_PE.sh &> 05_qiime2_denoise_PE.out
-    >real    1m22,151s
-    >user    1m46,194s
-    >sys     0m35,755s
+    >real    20m39,038s
+    >user    75m11,841s
+    >sys     2m22,181s
   
     time nohup bash 06_qiime2_tree_PE.sh &> 06_qiime2_tree_PE.out
-    >real    0m19,103s
-    >user    0m28,532s
-    >sys     0m14,523s
+    >real    1m14,812s
+    >user    1m24,746s
+    >sys     0m26,862s
     
     time nohup bash 07_qiime2_rarefaction_PE.sh &> 07_qiime2_rarefaction_PE.out
     >
