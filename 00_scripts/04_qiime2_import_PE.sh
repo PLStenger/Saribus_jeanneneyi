@@ -12,7 +12,7 @@ MANIFEST_BACTERIA=/scratch_vol1/fungi/Saribus_jeanneneyi/98_database_files/16S/m
 
 # For negative samples
 MANIFEST_FUNGI_NEG=/scratch_vol1/fungi/Pycnandra/98_database_files/ITS/manifest_cluster_neg
-MANIFEST_BACTERIA_NEG/scratch_vol1/fungi/Pycnandra/98_database_files/16S/manifest_cluster_neg
+MANIFEST_BACTERIA_NEG=/scratch_vol1/fungi/Pycnandra/98_database_files/16S/manifest_cluster_neg
 
 # pathways in local:
 #DATADIRECTORY_ITS=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/21_Saribus/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_ITS
