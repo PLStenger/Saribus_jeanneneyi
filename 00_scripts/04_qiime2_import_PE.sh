@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
 # pathways in cluster:
-DATADIRECTORY_ITS=/scratch_vol1/fungi/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_ITS
-DATADIRECTORY_16S=/scratch_vol1/fungi/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_16S
+DATADIRECTORY_ITS=/home/fungi/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_ITS
+DATADIRECTORY_16S=/home/fungi/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_16S
 
-OUTPUT_ITS=/scratch_vol1/fungi/Saribus_jeanneneyi/05_QIIME2/ITS
-OUTPUT_16S=/scratch_vol1/fungi/Saribus_jeanneneyi/05_QIIME2/16S
+OUTPUT_ITS=/home/fungi/Saribus_jeanneneyi/05_QIIME2/ITS
+OUTPUT_16S=/home/fungi/Saribus_jeanneneyi/05_QIIME2/16S
 
-MANIFEST_FUNGI=/scratch_vol1/fungi/Saribus_jeanneneyi/98_database_files/ITS/manifest_cluster
-MANIFEST_BACTERIA=/scratch_vol1/fungi/Saribus_jeanneneyi/98_database_files/16S/manifest_cluster
+MANIFEST_FUNGI=/home/fungi/Saribus_jeanneneyi/98_database_files/ITS/manifest_cluster
+MANIFEST_BACTERIA=/home/fungi/Saribus_jeanneneyi/98_database_files/16S/manifest_cluster
 
 # For negative samples
-MANIFEST_FUNGI_NEG=/scratch_vol1/fungi/Pycnandra/98_database_files/ITS/manifest_cluster_neg
-MANIFEST_BACTERIA_NEG=/scratch_vol1/fungi/Pycnandra/98_database_files/16S/manifest_cluster_neg
+MANIFEST_FUNGI_NEG=/home/fungi/Pycnandra/98_database_files/ITS/manifest_cluster_neg
+MANIFEST_BACTERIA_NEG=/home/fungi/Pycnandra/98_database_files/16S/manifest_cluster_neg
 
 # pathways in local:
 #DATADIRECTORY_ITS=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/21_Saribus/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_ITS
