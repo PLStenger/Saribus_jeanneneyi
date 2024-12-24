@@ -4,12 +4,12 @@
 # trimmomatic manual : http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf
 
 # pathways in cluster:
-DATADIRECTORY_ITS=/scratch_vol1/fungi/Saribus_jeanneneyi/02_pooled_data/ITS
-DATADIRECTORY_16S=/scratch_vol1/fungi/Saribus_jeanneneyi/02_pooled_data/16S
-DATAOUTPUT_ITS=/scratch_vol1/fungi/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_ITS
-DATAOUTPUT_16S=/scratch_vol1/fungi/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_16S
+DATADIRECTORY_ITS=/home/fungi/Saribus_jeanneneyi/02_pooled_data/ITS
+DATADIRECTORY_16S=/home/fungi/Saribus_jeanneneyi/02_pooled_data/16S
+DATAOUTPUT_ITS=/home/fungi/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_ITS
+DATAOUTPUT_16S=/home/fungi/Saribus_jeanneneyi/03_cleaned_data/DATAOUTPUT_16S
 
-WORKING_DIRECTORY=/scratch_vol1/fungi/Saribus_jeanneneyi
+WORKING_DIRECTORY=/home/fungi/Saribus_jeanneneyi
 
 
 # pathways in local:
@@ -21,7 +21,7 @@ WORKING_DIRECTORY=/scratch_vol1/fungi/Saribus_jeanneneyi
 eval "$(conda shell.bash hook)"
 conda activate trimmomatic
 
-ADAPTERFILE=/scratch_vol1/fungi/Pycnandra/98_database_files/adapters_sequences.fasta
+ADAPTERFILE=/home/fungi/Pycnandra/98_database_files/adapters_sequences.fasta
 
 
 
