@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 # pathways in cluster:
-DATADIRECTORY_ITS=/scratch_vol1/fungi/Saribus_jeanneneyi/05_QIIME2/ITS/
-DATADIRECTORY_16S=/scratch_vol1/fungi/Saribus_jeanneneyi/05_QIIME2/16S/
+DATADIRECTORY_ITS=/home/fungi/Saribus_jeanneneyi/05_QIIME2/ITS/
+DATADIRECTORY_16S=/home/fungi/Saribus_jeanneneyi/05_QIIME2/16S/
 
-METADATA_FUNGI=/scratch_vol1/fungi/Saribus_jeanneneyi/98_database_files/ITS/sample-metadata.tsv
-METADATA_BACTERIA=/scratch_vol1/fungi/Saribus_jeanneneyi/98_database_files/16S/sample-metadata.tsv
+METADATA_FUNGI=/home/fungi/Saribus_jeanneneyi/98_database_files/ITS/sample-metadata.tsv
+METADATA_BACTERIA=/home/fungi/Saribus_jeanneneyi/98_database_files/16S/sample-metadata.tsv
 
 # pathways in local:
 #DATADIRECTORY_ITS=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/21_Saribus/Saribus_jeanneneyi/05_QIIME2/Paired_end/ITS2/
@@ -218,10 +218,10 @@ qiime dada2 denoise-paired --i-demultiplexed-seqs core/demux_neg.qza \
 ######### a --o-sequence-hits core/HitNegCtrl.qza \
 ######### a --o-sequence-misses core/NegRepSeq.qza
 
-/scratch_vol1/fungi/Diversity_in_Mare_yam_crop/98_database_files/V4/Negative_control_Sample_RepSeq_V4.qza
+/home/fungi/Diversity_in_Mare_yam_crop/98_database_files/V4/Negative_control_Sample_RepSeq_V4.qza
 
 qiime quality-control exclude-seqs --i-query-sequences core/RepSeq.qza \
- --i-reference-sequences /scratch_vol1/fungi/Diversity_in_Mare_yam_crop/98_database_files/V4/Negative_control_Sample_RepSeq_V4.qza \
+ --i-reference-sequences /home/fungi/Diversity_in_Mare_yam_crop/98_database_files/V4/Negative_control_Sample_RepSeq_V4.qza \
  --p-method vsearch \
  --p-threads 6 \
  --p-perc-identity 1.00 \
