@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 # pathways in cluster:
-DATADIRECTORY_ITS=/scratch_vol1/fungi/Saribus_jeanneneyi/05_QIIME2/ITS/
-DATADIRECTORY_16S=/scratch_vol1/fungi/Saribus_jeanneneyi/05_QIIME2/16S/
+DATADIRECTORY_ITS=/home/fungi/Saribus_jeanneneyi/05_QIIME2/ITS/
+DATADIRECTORY_16S=/home/fungi/Saribus_jeanneneyi/05_QIIME2/16S/
 
-METADATA_ITS=/scratch_vol1/fungi/Saribus_jeanneneyi/98_database_files/ITS/
-METADATA_16S=/scratch_vol1/fungi/Saribus_jeanneneyi/98_database_files/16S/
+METADATA_ITS=/home/fungi/Saribus_jeanneneyi/98_database_files/ITS/
+METADATA_16S=/home/fungi/Saribus_jeanneneyi/98_database_files/16S/
 
 # pathways in local:
 #DATADIRECTORY_ITS=/Users/pierre-louisstenger/Documents/PostDoc_02_MetaBarcoding_IAC/02_Data/21_Saribus/Saribus_jeanneneyi/05_QIIME2/ITS/
