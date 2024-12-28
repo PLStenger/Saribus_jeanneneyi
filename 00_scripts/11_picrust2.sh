@@ -8,6 +8,7 @@ TMPDIR=/home
 cd $DATADIRECTORY_16S
 
 eval "$(conda shell.bash hook)"
+source /home/fungi/miniconda3/bin/activate 
 conda activate picrust2
 
 # Make the directory (mkdir) only if not existe already(-p)
