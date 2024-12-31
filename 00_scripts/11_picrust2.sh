@@ -23,5 +23,13 @@ echo '##########################################################################
 echo '### Bacteria ###'
 echo '##############################################################################################################################'
 
-picrust2_pipeline.py  -s /home/fungi/Saribus_jeanneneyi/05_QIIME2/16S/export/taxonomy/DataSeq/dna-sequences.fasta  -i picrust2/16S.tsv  -o export/export/picrust2/picrust2_out_16S -p4
-picrust2_pipeline.py  -s /home/fungi/Saribus_jeanneneyi/05_QIIME2/16S/export/taxonomy/DataSeq/dna-sequences.fasta  -i picrust2/16S_all.tsv  -o export/export/picrust2/picrust2_out_16S_all -p4
+#Lancer la premier ligne:
+# picrust2_pipeline.py  -s /home/fungi/Saribus_jeanneneyi/05_QIIME2/16S/export/taxonomy/DataSeq/dna-sequences.fasta  -i picrust2/16S.tsv  -o export/export/picrust2/picrust2_out_16S -p4
+#### picrust2_pipeline.py  -s /home/fungi/Saribus_jeanneneyi/05_QIIME2/16S/export/taxonomy/DataSeq/dna-sequences.fasta  -i picrust2/16S_all.tsv  -o export/export/picrust2/picrust2_out_16S_all -p4
+
+hsp.py -i /home/fungi/Saribus_jeanneneyi/05_QIIME2/16S/export/export/picrust2/picrust2_out_16S/intermediate/place_seqs/query_align.stockholm -o export/export/picrust2/picrust2_out_16S/placement_results.tre -p 4
+
+predict_metagenomes.py -i export/export/picrust2/picrust2_out_16S/placement_results.tre -o export/export/picrust2/picrust2_out_16S/pred_metagenome -p 4
+
+add_descriptions.py -i export/export/picrust2/picrust2_out_16S/pred_metagenome_unstrat.tsv -m KEGG_Pathways -o export/export/picrust2/picrust2_out_16S/final_output.tsv
+
